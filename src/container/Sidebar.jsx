@@ -15,7 +15,7 @@ const Sidebar = () => {
     return(
     <div className="sidebar">
         <div className="sidebar-header">
-      <img src={Logo} alt="Dashbord Logo" />
+        <Link to = "/overview"><img src={Logo} alt="Dashbord Logo" /></Link>
            <h1>Dashboard Kit</h1> 
          </div>
          <Link to = "/overview"><SidebarBtn img={<Chart/>} title="Overview"/></Link>
